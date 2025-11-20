@@ -3,13 +3,13 @@
 ---
 
 ## 🌐 **Overview**
-This README has been redesigned to be **highly attractive, deeply detailed, and professional**, ideal for showcasing on GitHub.
 
 This task demonstrates **real-world network forensic skills**, using Wireshark to capture live packets, analyze communication protocols, identify anomalies, and export traffic logs.
 
 ---
 
 ## 🎯 **Objective**
+
 - Capture live network packets using Wireshark
 - Analyze TCP, UDP, DNS, HTTP(S), ICMP, ARP, and other protocols
 - Understand packet structures, handshake flows, DNS resolution, and encrypted traffic behavior
@@ -18,6 +18,7 @@ This task demonstrates **real-world network forensic skills**, using Wireshark t
 ---
 
 ## 🎨 **Why This Task Matters (Attractive Insight)**
+
 ✔ Builds **SOC Analyst** and **Network Forensics** skills  
 ✔ Helps understand **attack patterns**, reconnaissance, DNS abuse, and anomalies  
 ✔ Trains you to read **raw network behavior**, the foundation of cybersecurity  
@@ -26,6 +27,7 @@ This task demonstrates **real-world network forensic skills**, using Wireshark t
 ---
 
 ## 🛠️ **Tools Used**
+
 - **Wireshark** (Packet Capture & Protocol Analyzer)
 - Any Web Browser (Generate HTTP/HTTPS traffic)
 - Command Line (Ping, DNS lookup)
@@ -35,6 +37,7 @@ This task demonstrates **real-world network forensic skills**, using Wireshark t
 ## ⚡ **Step-by-Step Practical Guide (Deep Technical Walkthrough)**
 
 ### **1️⃣ Install & Configure Wireshark**
+
 - Download from Wireshark.org
 - Install **Npcap** (required for capturing live traffic)
 - Enable **promiscuous mode** (optional but useful)
@@ -42,6 +45,7 @@ This task demonstrates **real-world network forensic skills**, using Wireshark t
 ---
 
 ### **2️⃣ Start a Live Capture**
+
 - Open Wireshark → Select your network interface (Wi-Fi/Ethernet)
 - Click **Start Capturing**
 - Packets begin flowing instantly
@@ -51,6 +55,7 @@ This task demonstrates **real-world network forensic skills**, using Wireshark t
 ---
 
 ### **3️⃣ Generate Traffic for Analysis**
+
 Perform activities to create diverse packets:
 - Visit websites (HTTP/HTTPS)
 - Run: `ping google.com`
@@ -86,15 +91,18 @@ These filters help isolate specific packet types.
 ---
 
 ### **5️⃣ Deep Analysis of Captured Protocols**
+
 Below is an **impressive technical breakdown** you can include in your report:
 
 ---
 ### 🧩 **🔹 TCP (Transmission Control Protocol)**
+
 - Connection-oriented (3-way handshake)
 - Ensures reliability (ACK, retransmissions)
 - Used by HTTPS, HTTP, SSH, FTP
 
 #### **Handshake Breakdown**
+
 1. SYN → Client → Server
 2. SYN‑ACK → Server → Client
 3. ACK → Client → Server
@@ -106,6 +114,7 @@ tcp.flags.syn == 1
 
 ---
 ### 🧩 **🔹 UDP (User Datagram Protocol)**
+
 - Fast & connectionless
 - No handshake
 - Used by DNS, VoIP, streaming
@@ -117,6 +126,7 @@ udp
 
 ---
 ### 🧩 **🔹 DNS (Domain Name System)**
+
 Converts domain names into IP addresses.
 
 Example query:
@@ -154,6 +164,7 @@ ssl
 
 ---
 ### 🧩 **🔹 ICMP (Ping)**
+
 Used for connectivity testing.
 
 Filter:
@@ -163,6 +174,7 @@ icmp
 
 ---
 ### 🧩 **🔹 ARP (Address Resolution Protocol)**
+
 Maps IP → MAC addresses.
 
 Filter:
@@ -173,6 +185,7 @@ arp
 ---
 
 ## 📊 **Sample Professional Summary for GitHub**
+
 | Protocol | Purpose | Key Observation | Filter |
 |---------|----------|----------------|--------|
 | TCP | Reliable communication | 3‑way handshake visible | `tcp` |
@@ -192,6 +205,7 @@ Include this file in your GitHub repo.
 ---
 
 ## 🧠 **Interview Questions (Advanced & Impressive Answers)**
+
 ### **1. What is Wireshark used for?**  
 Wireshark is a network forensic tool for capturing, analyzing, visualizing, and troubleshooting network packets.
 
